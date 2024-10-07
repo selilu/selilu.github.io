@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title> Project: ADUE Site </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header-projects"></div>
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="index.html#header">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- project introduction -->
+        <div id="project">
+            <div class="about-proj">
+                <h1 class="subtitle">Coding Projects</h1>
+                <img src="img/ipe-home.png">
+                <div class="description-row">
+                    <div class="column">
+                        <h3>Overview</h3>
+                        <p> The goal of this website is to create a responsive and easy-to-navigate platform
+                            that showcases policies, opportunities, and classes available to first-year engineering students. 
+                            This website serves as an information hub with contacts, information, and highlights of the College of Engineering.
+                            Built with a target audience of other educational professionals, students, and parents alike, the website is formal and professional.
+                            Highlighted is the E100 section which was visually redesigned to attract potential students with brighter colors, shapes, and modern elements.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>
+                                <strong>Responsive Design</strong>
+                                <br>Optimized for desktop and mobile based on analytics that revealed these were the most commonly used
+                                screen sizes for users.
+                            </li>
+                            <li>
+                                <strong>Technologies Used</strong>
+                                <br>Built with Divi Web Builder on Wordpress, CSS, HTML, Google Analytics, Google Tag
+                            </li>
+                            <li>
+                                <strong>Class Display and Visuals</strong>
+                                <br>Filterable classes with hover descriptions for easy viewability. Visual features such
+                                as scrolling external partners list, buttons, hover effects to engage users
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <video id="adue-awards" controls autoplay loop muted>
+                    <source src="img/awards-page-mock.mov" type="video/quicktime">
+                    Browser does not support video format.
+                </video>
+            </div>
+        </div>
+
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+ <html>

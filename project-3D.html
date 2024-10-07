@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title> Project: 3D Modeling </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header-projects"></div>
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="index.html#header">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- project introduction -->
+        <div id="project">
+            <div class="about-proj">
+                <h1 class="subtitle">3D Modeling</h1>
+                <div class="description-row">
+                    <div class="column">
+                        <h3>Overview</h3>
+                        <p> I was introduced to 3D modeling through my alternate reality club in college. Join
+                            me as I learn more about how to create 3D renderings and how I can apply them to my projects!
+                        </menu>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>
+                                <strong>Technologies Used</strong>
+                                <br>Blender, Nomadsculpt on IOS
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pictures">
+                    <div class="column-pic">
+                        <img src="img/sush-skeleton.png" alt="Skeleton view of sushi restaurant render">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/sushi-object.png" alt="Object view of sushi restaurant render">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/sushi-render.png" alt="Full rendering of sushi restaurant">
+                    </div>
+                </div>
+                <div class="pictures">
+                    <div class="column-pic">
+                        <img src="img/txt-logo-obj.png" alt="Logo in object view">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/txt_tomorrow.png" alt="Full rendering of logo with colors">
+                        <div class="column">
+                            <h3>More to Come!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+ <html>

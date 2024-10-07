@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title> Selina Lu's Personal Portfolio </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm <br class="mobile"><span>Selina Lu</span></h1>
+                    <h2 class="hybrid"> I am a <br class="mobile"><span id="typed"> </span></h2>
+                </div>
+            </div>
+        </div>
+       <!-- -------------- about ---------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>I am an aspiring front-end developer with a passion for creating <span class="highlight">aesthetic</span> and <span class="highlight">user-friendly</span> websites. 
+                            Although I come from a non-technical background, my <span class="highlight">curiosity</span> about technology and desire for <span class="highlight">creativity</span> 
+                            have driven me towards pursuing web development. I love transforming ideas into <span class="highlight">interactive experiences</span> and 
+                            continually learning new skills along the way. 
+
+                        <br><br>I am currently <span class="highlight">seeking full-time opportunities</span> to apply my skills and contribute to real-life projects. 
+                        I believe that creativity and technology go hand in hand, and I’m excited to combine my unique perspective with 
+                        my newfound coding abilities.
+                        </p>
+                        <div class="tab-titles">
+                            <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!-- skills ---------------------------------- -->
+                        <!-- <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>header 1</span><br>Skill 1</li>
+                                <li><span>header 2</span><br>Skill 2</li>
+                                <li><span>header 3</span><br>Skill 3</li>
+                            </ul>
+                        </div> -->
+                        <!-- experience ---------------------------------- -->
+                        <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li><span>Web Designer/Developer | University of Michigan College of Engineering</span>
+                                    <br>2/2023 - 4/2024
+                                    <br></li>
+                                <li><span>Website Manager | Pre-Medical Club at the University of Michigan</span>
+                                    <br>2022-2023</li>
+                            </ul>
+                        </div>
+                        <!-- education ---------------------------------- -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.S. Biology, Health, and Society</span>
+                                    <br>Relevant Coursework and Experiences: Data Structures and Algorithms, Applied Statistics, 
+                                    Unity App Development, 3D Modeling, Graphic Design, Project Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- -------------- skills list ---------------------- -->
+        <div id="skills">
+            <div class="container">
+                <h1 class="subtitle">My Skills</h1>
+                <div class="skills-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development & UI/UX</h2>
+                        <p>Experience managing and developing websites using Divi and Wordpress. Understanding of UI/UX principles
+                            in creating responsive and accessible designs. Knowledge of C++, CSS, HTML, basic Javascript.
+
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        <h2>Analytics & Client Management</h2>
+                        <p>Statistical and analytics background with knowledge of Google Analytics and basic understanding of Google Tag Manager.
+                            Able to curate work based on analytics and client needs.
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h2>Graphics</h2>
+                        <p>Basic knowledge of graphic creation and manipulation applications such as: Adobe Photoshop,
+                            Canva, Figma, Blender, NomadSculpt
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- -------------- portfolio ---------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/e100-home.png">
+                        <div class="layer">
+                            <h3>Engineering Department Website</h3>
+                            <p>This website is aimed towards educational and informative purposes with a target audience
+                                of parents, students, teaching professionals, and other educational institutions.
+                            </p>
+                            <a href="project-adue.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/ipe-home.png">
+                        <div class="layer">
+                            <h3>Study Abroad Website</h3>
+                            <p>This website is aimed towards students and parents seeking information about study abroad. Its primary
+                                focus is on organizing large amounts of study abroad resources that can be easily accessed.
+                            </p>
+                            <a href="project-ipe.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/wolfram-snapshot.png">
+                        <div class="layer">
+                            <h3>Drug Clearance Demonstration</h3>
+                            <p>This coding project was for a honors studio using Mathematica to build an educational demonstration
+                                of a physical chemistry concept.
+                            </p>
+                            <a href="https://demonstrations.wolfram.com/PharmacokineticsOfDrugClearance/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/stats-graph.png">
+                        <div class="layer">
+                            <h3>Statistical Analysis</h3>
+                            <p>This was my final project for my intermediate statistics class where I analyzed the 
+                                potential factors influencing cancer mortality rates using R.</p>
+                                <a href="project-stats.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/sush-skeleton.png">
+                        <div class="layer">
+                            <h3>3D Modeling</h3>
+                            <p>This is a collection of personal projects that I've been working on as I learn how to 3D model.</p>
+                            <a href="project-3D.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work1.png">
+                        <div class="layer">
+                            <h3>Coding Projects</h3>
+                            <p>This is a collection of coding projects that I've completed for school using C++.</p>
+                            <p class="comingsoon">Coming Soon</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a href="#portfolio" class="button">More Coming Soon</a>
+            </div>
+        </div>
+
+        <!-- ---------------------- contact ------------------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <div class="social-icons">
+                            <a href="mailto:selinahjlu@gmail.com"><i class="fa-solid fa-envelope"></i>selinahjlu@gmail.com</a>
+                            <a href="" download class="cv"><i class="fa-solid fa-download"></i>Resume</a>
+                            <a href="https://www.linkedin.com/in/selina-lu-811a011b7/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>LinkedIn</a>  
+                        </div>
+                    </div>
+                    <!-- contact form w submission not in use bc no database -->
+                    <!-- <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button button2">Submit</button>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by Selina Lu. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+
+        <!-- backspace effect for text header -->
+        <script>
+            const txt = ["Front-end Developer", "Web Designer", "Creative Problem-Solver"];
+            
+            // increment counters
+            let i=0, j=0;
+            // check if entire word is typed
+            let end=false;
+
+            // creates delay after typing word
+            function wait(seconds){
+                return new Promise((resolve)=>
+                setTimeout(resolve, seconds*1000));
+            }
+            // main funcion to type and backspace multiple words 
+            async function main(){
+  
+            // check if the value of i is less than array length of txt containg all the words  
+            if(i < txt.length){
+                
+                // auto typing
+                if(end==false && j <= txt[i].length){
+                document.getElementById("typed").innerHTML += txt[i][j];  
+                j++
+                }
+                
+                // backspacing the characters one by one
+                if(end==true && j <= txt[i].length){
+                    document.getElementById("typed").innerHTML = txt[i].substring(0,j-1);
+                    j--
+                }
+                
+                // checking if all the characters have been typed
+                if(j == txt[i].length){
+                    end= true;
+                    await wait(2)
+                }
+                
+                // going to the next word  
+                if(end==true && j ==0){
+                i++
+                end=false;  
+                }
+            }
+            // If the value of i becomes greater than    
+            else
+                i=0;
+            setTimeout(main,200)
+            }
+
+            main();
+        </script>
+        <!-- alternating highlights -->
+        <script>
+            //find all class="highlight"
+            const highlights = document.querySelectorAll('.highlight');
+            let currentIndex = 0;
+
+            function highlightNext(){
+                highlights[currentIndex].classList.remove('highlighted')
+                currentIndex = (currentIndex + 1) % highlights.length; // Move to the next index
+                highlights[currentIndex].classList.add('highlighted'); // Highlight the next one
+            }
+                  // Start the highlighting cycle
+             setInterval(highlightNext, 2500); // Change this for how often to switch
+             highlights[currentIndex].classList.add('highlighted'); //initialized
+        </script>
+
+
+
+        <!-- click tabs to displau different information -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+</html>

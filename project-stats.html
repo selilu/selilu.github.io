@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title> Project: Statistical Analysis </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header-projects"></div>
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="index.html#header">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- project introduction -->
+        <div id="project">
+            <div class="about-proj">
+                <h1 class="subtitle">Analysis of Effects of Access to Healthcare by Region on Modeling Cancer Mortality Rates</h1>
+                <img src="img/stats-graph.png">
+                <div class="description-row">
+                    <div class="column">
+                        <h3>Overview</h3>
+                        <p> Medicine still has yet to find a cure to one of the leading causes of death today: cancer. There are many known causes 
+                            of cancer in the biological realm as relating to the body such as carcinogens, lifestyle choices, other related diseases, 
+                            and even without a known source. Outside of the biological field, there are also social factors that could contribute to 
+                            cancer mortality rates in the United States. The American Community Survey, conducted by the Census, along with other organizations 
+                            relating to clinical trials and cancer research have collected data from around the country at the county-level, aggregated into a dataset 
+                            containing various demographic factors that may have a relationship with cancer mortality rate.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Variables Investigated</h3>
+                        <ul>
+                            <li>Cancer mortality rate</li>
+                            <li>Median income (Dollars)</li>
+                            <li>Average household Size (Number of Residents)</li>
+                            <li>Percent of county residents with various healthcare coverage</li>
+                            <li>Region</li>
+                        </ul>
+                        <p>Cancer mortality rate is measured as deaths per 100,000 people. The health coverage plans explored include private, employer-provided, and 
+                            government provided. Regions are separated into categories of Midwest, Northeast, Southeast, Southwest, and West. The goal of this analysis 
+                            is to explore the different relations between these demographic factors and cancer mortality rate, using the results to create the best model to represent the relationship between them.</p>
+                    </div>
+                </div>
+                <div class="pictures">
+                    <div class="column">
+                        <h3>Analysis</h3>
+                        <p>Overall, the model’s R^2 value was not as high as expected, indicating that although measures were taken to best improve the model, these demographic factors may only play a partial role in the cause of cancer mortality rates whereas other unknown predictors may have stronger or more direct relations. The RMSE for this final model was about 23, which on a scale of per 100,000 people is not strongly significant, but within the context of this data set, means that there is an average error of 23 to be added or subtracted from the cancer mortality rate.
+                            Although the addition of some variables or interactions did not yield large changes in R^2 values, they were still important to include based on the premise of the varying healthcare coverages that exist across the United States. In the future, more interactions between regions and other predictor variables should be researched as the United States is a vast country with many different attitudes and policies towards healthcare and medicine depending on the region.</p>
+                    </div>
+                    <div class="column-pic">
+                        <embed src="img/Final-Project---Appendices.html" type="text/html" title="Embedded HTML"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+ <html>

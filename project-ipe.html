@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title> Project: IPE Site </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header-projects"></div>
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="index.html#header">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- project introduction -->
+        <div id="project">
+            <div class="about-proj">
+                <h1 class="subtitle">International Programs in Engineering<br>Study Abroad Website 
+                    <a href="https://ipe.engin.umich.edu/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h1>
+                <img src="img/ipe-home.png">
+                <div class="description-row">
+                    <div class="column">
+                        <h3>Overview</h3>
+                        <p> The goal of this website is to create a responsive and easy-to-navigate platform
+                            to house study abroad resources and informaation for interested engineering students. 
+                            This website serves as an information hub with advisor contacts, student testimonies, and highlights of available study abroad opportunities.
+                            Built with a target audience of students and their parents, the website is formal, professional, and includes lots of quotes and experiences of other students.
+                            <br><br><strong>Role: </strong>Lead developer in charge of meeting with client, planning content updates around important application deadlines, executing redesign of homepage based on
+                            design guidelines, and maintenance of site. Developed in an Agile environment.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>
+                                <strong>Responsive Design</strong>
+                                <br>Optimized for desktop and mobile based on analytics that revealed these were the most commonly used
+                                screen sizes for users.
+                            </li>
+                            <li>
+                                <strong>Technologies Used</strong>
+                                <br>Built with Divi Web Builder on Wordpress, CSS, HTML, Google Analytics, Google Tag Manager
+                            </li>
+                            <li>
+                                <strong>Study Abroad Programs Search</strong>
+                                <br>Filterable study abroad programs by term, program type, and country.
+                            </li>
+                            <li>
+                                <strong>Visual Appeal</strong>
+                                <br>Colorful images and theme of featuring different countries and landscapes to encourage users to positively view
+                                study abroad experiences. Hover effects on buttons to engage users.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <video id="adue-awards" autoplay loop muted>
+                    <source src="img/ipe-home-rec.mp4" type="video/mp4">
+                    Browser does not support video format.
+                </video>
+                <div class="pictures">
+                    <div class="column-pic">
+                        <img src="img/ipe-intl-exp.png">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/ipe-quotes-carosel.png">
+                    </div>
+                </div>
+                <div class="pictures">
+                    <div class="column-pic">
+                        <img src="img/ipe-minor.png">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/ipe-peeradvisors.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+ <html>
