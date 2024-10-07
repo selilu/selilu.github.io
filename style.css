@@ -44,7 +44,7 @@ nav{
 .logo-text{
     font-size: 30px;
     padding: 5px;
-    color:#779ecb;
+    color:#749ad2;
 }
 
 .logo-text h1 span{
@@ -124,7 +124,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 40px;
-    color: #779ecb;
+    color: #749ad2;
 }
 .row{
     display: flex;
@@ -151,7 +151,7 @@ nav ul li a:hover::after{
     color: hsl(212, 45%, 63%);
 }
 .tab-titles{
-    color: #779ecb;
+    color: #749ad2;
     display: flex;
     margin: 20px 0 40px;
 }
@@ -186,7 +186,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #779ecb;
+    color: #749ad2;
     font-size: 21px;
 }
 
@@ -327,15 +327,15 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 4px solid #779ecb;
+    border: 4px solid #749ad2;
     padding: 14px 50px;
     border-radius: 10px;
-    color: #779ecb;
+    color: #749ad2;
     text-decoration: none;
     transition: background 0.5s;
 }
 .button:hover{
-    background: #779ecb;
+    background: #749ad2;
     color:#f8f8ff;
 }
 /* ------------------ contact ----------------------- */
@@ -427,7 +427,7 @@ form .button2{
     display: flex;
 }
 .about-proj i{
-    color: #779ecb;
+    color: #749ad2;
 }
 .about-proj{
     margin: 5vw;
