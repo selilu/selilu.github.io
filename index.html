@@ -24,8 +24,8 @@
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <h1>Hi, I'm <br class="mobile"><span>Selina Lu</span></h1>
-                    <h2 class="hybrid"> I am a <br class="mobile"><span id="typed"> </span></h2>
+                    <h1>Hi, I'm <span>Selina Lu</span><br class="mobile">A UX Researcher and Designer</h1>
+                    <h2 class="hybrid">Also, <br class="mobile"><span id="typed"> </span></h2>
                 </div>
             </div>
         </div>
@@ -35,19 +35,19 @@
                 <div class="row">
                     <div class="about-col">
                         <h1 class="subtitle">About Me</h1>
-                        <p>I am an aspiring front-end developer with a passion for creating <span class="highlight">aesthetic</span> and <span class="highlight">user-friendly</span> websites. 
+                        <p>I am a UX Researcher and Designer with a passion for creating <span class="highlight">aesthetic</span> and <span class="highlight">user-friendly</span> websites. 
                             Although I come from a non-technical background, my <span class="highlight">curiosity</span> about technology and desire for <span class="highlight">creativity</span> 
-                            have driven me towards pursuing web development. I love transforming ideas into <span class="highlight">interactive experiences</span> and 
+                            have driven me towards UX. I love transforming ideas into <span class="highlight">interactive experiences</span> and 
                             continually learning new skills along the way. 
 
-                        <br><br>I am currently <span class="highlight">seeking full-time opportunities</span> to apply my skills and contribute to real-life projects. 
-                        I believe that creativity and technology go hand in hand, and I’m excited to combine my unique perspective with 
-                        my newfound coding abilities.
+                        <br><br>I am currently <span class="highlight">seeking internships for Summer 2026</span> to apply my skills and contribute to real-life projects. 
+                        I believe that creativity and technology go hand in hand, and I’m excited to combine my analytical perspectives with 
+                        my design skills.
                         </p>
                         <div class="tab-titles">
                             <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
-                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         </div>
                         <!-- skills ---------------------------------- -->
                         <!-- <div class="tab-contents active-tab" id="skills">
@@ -57,22 +57,26 @@
                                 <li><span>header 3</span><br>Skill 3</li>
                             </ul>
                         </div> -->
+                        <!-- education ---------------------------------- -->
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Currently getting... M.S. Information, Human-Computer Interaction</span>
+                                    <br>Relevant Coursework and Experiences: Interaction Design, SQL, Principles of User Experience, Problem-solving with Information</li>
+                            </ul>
+                            <ul>
+                                <li><span>Previously obtained... B.S. Biology, Health, and Society</span>
+                                    <br>Relevant Coursework and Experiences: Data Structures and Algorithms, Applied Statistics, 
+                                    Unity App Development, 3D Modeling, Graphic Design, Project Management</li>
+                            </ul>
+                        </div>
                         <!-- experience ---------------------------------- -->
-                        <div class="tab-contents active-tab" id="experience">
+                        <div class="tab-contents" id="experience">
                             <ul>
                                 <li><span>Web Designer/Developer | University of Michigan College of Engineering</span>
-                                    <br>2/2023 - 4/2024
+                                    <br>February 2023 - April 2024
                                     <br></li>
                                 <li><span>Website Manager | Pre-Medical Club at the University of Michigan</span>
                                     <br>2022-2023</li>
-                            </ul>
-                        </div>
-                        <!-- education ---------------------------------- -->
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>B.S. Biology, Health, and Society</span>
-                                    <br>Relevant Coursework and Experiences: Data Structures and Algorithms, Applied Statistics, 
-                                    Unity App Development, 3D Modeling, Graphic Design, Project Management</li>
                             </ul>
                         </div>
                     </div>
@@ -114,6 +118,15 @@
             <div class="container">
                 <h1 class="subtitle">My Work</h1>
                 <div class="work-list">
+                    <div class="work">
+                        <img src="img/gogotennis_home.png" loading="lazy" alt="Space-themed AR tennis game home screen">
+                        <div class="layer">
+                            <h3>AR Tennis Game</h3>
+                            <p>AR Tennis game on mobile and desktop, playable from home to promote wellbeing.
+                            </p>
+                            <a href="project-gogotennis.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </div>
+                    </div>
                     <div class="work">
                         <img src="img/e100-home.png" loading="lazy" alt="Homepage of an engineering department website">
                         <div class="layer">
@@ -193,7 +206,7 @@
                         <h1 class="subtitle">Contact Me</h1>
                         <div class="social-icons">
                             <a href="mailto:selinahjlu@gmail.com"><i class="fa-solid fa-envelope"></i>selinahjlu@gmail.com</a>
-                            <a href="img/SelinaLuResume24.pdf" download class="cv"><i class="fa-solid fa-download"></i>Resume</a>
+                            <a href="img/Resume_SelinaLu.pdf" download class="cv"><i class="fa-solid fa-download"></i>Resume</a>
                             <a href="https://www.linkedin.com/in/selina-lu-811a011b7/" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>LinkedIn</a>  
                         </div>
@@ -211,12 +224,12 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Made by Selina Lu. Made with <i class="fa-solid fa-heart"></i></p>
+            <p>Coded and Designed by Selina Lu. Made with <i class="fa-solid fa-heart"></i></p>
         </div>
 
         <!-- backspace effect for text header -->
         <script>
-            const txt = ["Front-end Developer", "Web Designer", "Creative Problem-Solver"];
+            const txt = ["Web Designer", "Analytical Researcher", "Dark-Mode Enthusiast", "Trinket Collector", "Arts & Crafts Hobbyist"];
             
             // increment counters
             let i=0, j=0;
@@ -249,7 +262,7 @@
                 // checking if all the characters have been typed
                 if(j == txt[i].length){
                     end= true;
-                    await wait(2)
+                    await wait(1)
                 }
                 
                 // going to the next word  
@@ -261,7 +274,7 @@
             // If the value of i becomes greater than    
             else
                 i=0;
-            setTimeout(main,200)
+            setTimeout(main,100)
             }
 
             main();

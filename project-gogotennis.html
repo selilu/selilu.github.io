@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Project: GOGO Tennis AR Game Design</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2528218efd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header-projects"></div>
+            <div class="container">
+                <nav>
+                    <div class="logo-text"><h1>S<span>L</span></h1></div>
+                    <ul id="menu">
+                        <li><a href="index.html#header">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#portfolio">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <!-- project introduction -->
+        <div id="project">
+            <div class="about-proj">
+                <h1 class="subtitle">GOGO Tennis<br>AR Tennis Game</h1>
+                <img src="img/gogotennis_home.png">
+                <div class="description-row">
+                    <div class="column">
+                        <h3>Overview</h3>
+                        <p> The goal of this project was to redesign an existing AR tennis game with brighter colors, shapes, and modern elements that appear more engaging and cohesive to users.
+                            <br><br><strong>Role: </strong>UX Designer and Researcher in charge of completing analysis to discover pain points and weaknesses of previous design,
+                            assist in determining new game theme, create reusable UI components, and more.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>
+                                <strong>Responsive Design</strong>
+                                <br>Designed for mobile and desktop use.
+                            </li>
+                            <li>
+                                <strong>Technologies Used</strong>
+                                <br>Components and UI created with Figma, 3D modeling using Blender
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="column-pic">
+                        <img src="img/ggscreens.jpeg" alt="">
+                    </div>
+                    <div class="column-pic">
+                        <img src="img/ggcomponents.jpeg" alt="">
+                    </div>
+            </div>
+        </div>
+
+        <!-- navigation menu pop up on mobile -->
+        <script>
+            var menu = document.getElementById("menu");
+
+            function openmenu(){
+                menu.style.top = "0";
+            }
+            function closemenu(){
+                menu.style.top = "-100%";
+            }
+        </script>
+
+    </body>
+ <html>
